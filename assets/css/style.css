@@ -1,0 +1,247 @@
+*{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    background-color: #e4fefc;
+    line-height: normal;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+p {
+    color: #004464c8;
+    font-size: 375%;
+    text-align: center;
+}
+
+h1 {
+    color: #004564;
+    font-size: 700%;
+    text-align: center;
+}
+
+h2 {
+    color: #004464d1;
+    font-size: 200%;
+    text-align: center;
+    text-shadow:3px 3px 4px #066e85d1;
+}
+
+h3{
+    color: #004464a3;
+    font-size: 150%;
+    text-align: center;
+}
+
+h4 {
+    color: #004464c8;
+    font-size: 255%;
+    text-align: center;
+}
+
+h5 {
+    color: #004464ab;
+    font-size: 255%;
+    text-align: center;
+}
+
+div.titlethingy {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(135deg, #a3ebebf1, #85e3e3f1);
+}
+
+#nav-link {
+    padding: 5px;
+    margin: 4px;
+    border: 2px;
+    font-size: 30px;
+    display: block;
+    float: left;
+} 
+
+#nav-link-img {
+    padding: 5px;
+    margin: 4px;
+    height: 60px;
+    width: auto;
+    display: block;
+    float: right;
+} 
+.bots {
+    margin: 35px;
+}
+nav ul li a {
+    margin: 4px;
+    padding: 5px;
+    border: dotted #00ffff91 3px;
+    color: #3b3a4fb1;
+    background-color: #aaede84d ;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav {
+    padding: 8px;
+    margin: 0px;
+    background-color: #81cfcf;
+    position: sticky;
+    top: 0;
+    width: calc(100% - 16px);
+    resize: both;
+    overflow: auto;
+}
+
+nav a:visited {
+    color: #3b3a4fb1;
+    background-color:#aaede84d ;
+}
+nav a:hover {
+    color: #4e4d69be;
+    background-color: #b7fffa5c;
+}
+
+nav a:focus {
+    color: #4e4d69be;
+    background-color: #b7fffa5c;
+}
+
+#landingpagebutton {
+    color: #00c1c5ba;
+    background-color: #acfffcba;
+    border: solid #659695ba 5px;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    padding:10px 4px;
+    margin: 10%;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 200%;
+    transition: transform  1s ease-out;
+}
+
+#landingpagebutton:hover {
+    transform: scale(1.05);
+    color: #76eceeba;
+    background-color: #176e6bba;
+    border: solid #a1efeeba 5px;
+    border-radius: 10px;
+}
+
+#center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.function-img{
+    width: 60%;
+    height: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+#feedbackbox{
+    text-align: center;
+    width: 80%;
+    height: auto;
+    background-color: #8ccfcd3b;
+    border: solid #6ea4a33c 2px;
+    border-radius: 10px;
+}
+
+.buttonStuff {
+    width: 15%;
+    height: 7%;
+    font-size: 150%;
+    background-color: #8ccfcdba;
+    border: solid #6ea4a3ba 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform  1s ease-out;
+}
+
+main.backgroundimage {
+    background-image:url(/assets/images/Landing-pageplaceholder.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    padding: 10px;
+    position: relative;
+    animation-name: ZoomIn;
+    animation-duration: 1s;
+    animation-direction: reverse;  
+}
+
+header.Landingpage {
+    background: linear-gradient(to top, #00000023, #00000041);
+    padding: 20px 10px;
+    text-align: center;
+    position: relative;} 
+
+div.rightbotinfo {
+    margin: 75px;
+    padding: 10px;
+    border: 3px, dashed, #95dddbe2;
+    overflow: wrap;
+    background-color: #6fb1ab25;
+    width: 30%;
+    height: auto;
+    float: right;
+    text-align: end;
+    transform: translate(-4%, 0px)
+}
+
+div.rightbotinfo:hover {
+    transform: scale(1.1) translate(-4%, 0px);
+    transition: transform 1s;
+}
+
+div.leftbotinfo {
+    margin: 75px;
+    padding: 10px;
+    border: 3px, dashed, #95dddbe2;
+    overflow: wrap;
+    background-color: #6fb1ab25;
+    width: 30%;
+    height: auto;
+    float: left;
+    text-align: start;
+    transform: translate(4%, 0px)
+}
+
+div.leftbotinfo:hover {
+    transform: scale(1.1) translate(4%, 0px);
+    transition: transform 1s;
+}
+
+div.hometitle {
+    background-image: url(/assets/images/stuff.png);
+    background-repeat: no-repeat;
+    background-size: 1575px;
+    padding: 10px;
+    position: relative;
+}
+
+@keyframes ZoomIn {
+    0% {transform: scale(1); opacity: 90%;}
+    100% {transform: scale(1.2);opacity:50%;}
+}
+
+footer{
+    background-color:#3c9aa560 ;
+    font-size: 300%;
+    color: #004464c8;
+    text-align: center;
+}
